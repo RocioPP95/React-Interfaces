@@ -29,7 +29,8 @@ function MiComponente() {
         setdia(dia === dias.length - 1 ? 0 : dia + 1);
     }
 
-
+// rfce y te hace esta funcion y el export
+//ponemos <></> en el return porque solo puede enviar un fragmento, pero si ponemos las etiqueta vacías puedes enviarle dentro lo que quieras 
     return (
         //Fragmento
         <>

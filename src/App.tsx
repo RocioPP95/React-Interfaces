@@ -4,6 +4,7 @@ import Producto from './componentes/Producto'
 import ContadorClicks from './componentes/ContadorClicks'
 import MiComponente from './componentes/MiComponente';
 import SelectorActividades from './componentes/SelectorActividades';
+import ListaTareas from './componentes/ListaTareas';
 
 
 function App() {
@@ -17,12 +18,16 @@ function App() {
       <Producto nombre='Reloj' precio={19.99} disponible={true} ></Producto>
       <Producto nombre='Gafas de sol' precio={19.99} disponible={false} ></Producto>
       <Producto nombre='Mochila' precio={29.99} disponible={true} ></Producto>
-      <ContadorClicks></ContadorClicks>
 
+      <ContadorClicks></ContadorClicks>
       <MiComponente></MiComponente>
       <SelectorActividades></SelectorActividades>
+      <hr />
+      <ListaTareas></ListaTareas>
     </div>
   )
+
+  
 }
 
 export default App
